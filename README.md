@@ -1,5 +1,7 @@
 # markdown-test
 
+https://gitmarkdown.com/ のマークダウンテストページ。
+
 ## 数式
 $$
 \left[ \begin{array}{a} a^l_1 \\ ⋮ \\ a^l_{d_l} \end{array}\right]
@@ -51,5 +53,4 @@ graph TD;
 
 ## Folio-Scientia
 - [Folio-Scientia](folio-scientia/README.md)
-- [Folio-Scientia](./folio-scientia/README.md)
 
