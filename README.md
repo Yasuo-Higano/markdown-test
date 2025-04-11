@@ -33,4 +33,6 @@ graph TD;
 不意に電気が消え、モニターには《《怪物》》が写っていた。
 おっと、それまでだ。俺の|邪気眼《ダークフレーム・オブ・アイズ》が目を覚ましちまうぜ。
 
+# Folio-Scientia
+- [Folio-Scientia](folio-scientia/README.md)
 
