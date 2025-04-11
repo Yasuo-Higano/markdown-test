@@ -26,7 +26,7 @@ These movements form the core of the Gun Kata stances and transitions, which can
 
 Gun Kata is modeled using the following functional optimization framework:
 
-```latex
+$$
 \begin{aligned}
 \text{Let } & \mathbf{E} = \{e_i\}_{i=1}^{n} \text{ be the enemy location distribution}, \\
 & \mathbf{P}(x, t) = \text{probabilistic threat field at position } x \text{ and time } t, \\
@@ -35,7 +35,7 @@ Gun Kata is modeled using the following functional optimization framework:
 & \mathcal{G}(t) = \arg\max_{x \in \mathbb{R}^3} \left[ \int_{t}^{t+\Delta t} \mathcal{L}(x, \tau) \, d\tau \right], \\
 & \text{subject to } \| \dot{x}(t) \| \leq v_{\text{max}}.
 \end{aligned}
-```
+$$
 
 **Explanation:**
 
