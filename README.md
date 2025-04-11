@@ -33,6 +33,22 @@ graph TD;
 不意に電気が消え、モニターには《《怪物》》が写っていた。
 おっと、それまでだ。俺の|邪気眼《ダークフレーム・オブ・アイズ》が目を覚ましちまうぜ。
 
+## Wikitable
+{| class="wikitable"
+!colspan="6"|Shopping List
+|-
+|rowspan="2"|Bread & Butter
+|Pie
+|Buns
+|Danish
+|colspan="2"|Croissant
+|-
+|Cheese
+|colspan="2"|Ice cream
+|Butter
+|Yogurt
+|}
+
 ## Folio-Scientia
 - [Folio-Scientia](folio-scientia/README.md)
 - [Folio-Scientia](./folio-scientia/README.md)
