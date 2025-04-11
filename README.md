@@ -1,6 +1,6 @@
 # markdown-test
 
-# 数式
+## 数式
 $$
 \left[ \begin{array}{a} a^l_1 \\ ⋮ \\ a^l_{d_l} \end{array}\right]
 = \sigma(
@@ -20,7 +20,7 @@ $$
 \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
 $$
 
-# mermaid
+## mermaid
 ```mermaid
 graph TD;
     A-->B;
@@ -29,11 +29,11 @@ graph TD;
     C-->D;
 ```
 
-# ルビをふる
+## ルビをふる
 不意に電気が消え、モニターには《《怪物》》が写っていた。
 おっと、それまでだ。俺の|邪気眼《ダークフレーム・オブ・アイズ》が目を覚ましちまうぜ。
 
-# Folio-Scientia
+## Folio-Scientia
 - [Folio-Scientia](folio-scientia/README.md)
 - [Folio-Scientia](./folio-scientia/README.md)
 
