@@ -34,5 +34,5 @@ graph TD;
 おっと、それまでだ。俺の|邪気眼《ダークフレーム・オブ・アイズ》が目を覚ましちまうぜ。
 
 # Folio-Scientia
-- [Folio-Scientia](folio-scientia/README.md)
+- [Folio-Scientia](./folio-scientia/README.md)
 
