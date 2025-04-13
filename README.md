@@ -31,6 +31,9 @@ graph TD;
     C-->D;
 ```
 
+## Ruby
+Master of the |Gun=Katas《Geometric and Tactical Analysis》 an adversary not to be taken lightly.
+
 ## ルビと傍点
 不意に電気が消え、モニターには《《怪物》》が写っていた。
 おっと、それまでだ。俺の|邪気眼《ダークフレーム・オブ・アイズ》が目を覚ましちまうぜ。
