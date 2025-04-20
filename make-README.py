@@ -10,8 +10,8 @@ def generate_readme(directory, title):
     # Find all markdown files
     md_files = glob.glob(os.path.join(directory, "*.md"))
     
-    # Skip README.md itself
-    md_files = [f for f in md_files if os.path.basename(f).lower() != "readme.md"]
+    # Skip README.md itself and files starting with underscore
+    md_files = [f for f in md_files if os.path.basename(f).lower() != "readme.md" and not os.path.basename(f).startswith("_")]
     
     # Sort files alphabetically
     md_files.sort()

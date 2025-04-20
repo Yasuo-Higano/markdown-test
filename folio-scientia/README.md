@@ -3,8 +3,6 @@
 - [CV不老遺伝型解説](CV不老遺伝型解説.md)
 - [Folio-Scientia](Folio-Scientia.md)
 - [Gun=Kata](Gun=Kata.md)
-- [_footer](_footer.md)
-- [_header](_header.md)
 - [π情報宇宙航行理論](π情報宇宙航行理論.md)
 - [π情報宇宙論](π情報宇宙論.md)
 - [オサレポーズ](オサレポーズ.md)
