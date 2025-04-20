@@ -1,3 +1,8 @@
+----------
+description: Gun Kata is a hybrid martial art specialized for close to mid-range firearm combat, integrating probabilistic modeling, geometric motion theory, and predictive targeting. This technique was conceptualized in early 21st-century military AI laboratories and is now applied in many cybernetic combat units as a real-time combat optimization protocol.
+keywords: gun kata, firearm combat, probabilistic modeling, geometric motion theory, predictive targeting, cybernetic combat units, tactical optimization
+----------
+
 **Gun Kata**
 ============
 
