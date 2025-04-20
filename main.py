@@ -3,7 +3,7 @@ import os
 import argparse
 import glob
 
-def generate_readme(directory):
+def generate_readme(directory, title):
     """
     Generate README.md with links to all Markdown files in the specified directory
     """
@@ -17,7 +17,7 @@ def generate_readme(directory):
     md_files.sort()
     
     # Create content for README.md
-    content = "# Markdown Files\n\n"
+    content = f"# {title}\n\n"
     
     if md_files:
         for md_file in md_files:
@@ -39,6 +39,8 @@ def main():
     parser = argparse.ArgumentParser(description="Generate README.md with links to Markdown files")
     parser.add_argument("--dir", type=str, default=".", 
                         help="Directory containing Markdown files (default: current directory)")
+    parser.add_argument("--title", type=str, default="Markdown Files", 
+                        help="Title for the README (default: Markdown Files)")
     
     args = parser.parse_args()
     
@@ -48,7 +50,7 @@ def main():
         return 1
     
     # Generate README
-    generate_readme(args.dir)
+    generate_readme(args.dir, args.title)
     return 0
 
 if __name__ == "__main__":
