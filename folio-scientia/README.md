@@ -1,10 +1,4 @@
-----------
-title: folio-scientia(フォリオ・サイエンティア)
-description: マークダウンファイルは、架空の理論や概念を集めたもので、「folio scientia」シリーズに関連する内容が含まれています。これらの項目は、科学的な仮説やファンタジー要素を組み合わせた独自の世界観を提示しており、特に「ガン=カタ」や「サイコミュ」といったキーワードが目立ちます。
-keywords: folio scientia, ガン=カタ, π情報宇宙航行理論, 素手熊撃破理論, サイコミュ, 時間共鳴断層理論, 瀕死強化理論
-----------
-
-# Folio Scientia
+# Folio Scientia(フォリオ・サイエンティア)
 
 - [CV不老遺伝型解説](CV不老遺伝型解説.md)
 - [Folio-Scientia](Folio-Scientia.md)
