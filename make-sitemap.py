@@ -12,8 +12,8 @@ def generate_sitemap(directory, base_url):
     # Find all markdown files
     md_files = glob.glob(os.path.join(directory, "*.md"))
     
-    # Skip README.md itself and files starting with underscore
-    md_files = [f for f in md_files if os.path.basename(f).lower() != "readme.md" and not os.path.basename(f).startswith("_")]
+    # Skip files starting with underscore, but include README.md
+    md_files = [f for f in md_files if not os.path.basename(f).startswith("_")]
     
     # Sort files alphabetically
     md_files.sort()
