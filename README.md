@@ -25,6 +25,7 @@ python make-sitemap.py --dir ./content --base-url https://mywebsite.com
 - XML形式のsitemap.xmlを生成します
 - 各ファイルの最終更新日を追跡します
 - 検索エンジン最適化（SEO）のためのXML sitemap標準に準拠しています
+- README.mdおよび_（アンダースコア）から始まるファイルは無視されます
 
 ## 出力フォーマット
 
