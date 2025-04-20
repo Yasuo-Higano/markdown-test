@@ -1,4 +1,14 @@
-# markdown-test
+# gitmarkdown.com の使い方
+- github.com で公開しているmarkdownファイルをレンダリングできます。
+- You can render markdown files published on github.com.
+
+- 以下の例のように数式やルビに対応しています。
+- It supports mathematical formulas and ruby annotations as shown in the examples below.
+
+- You can use it just by rewriting the URL.
+- https://github.com/Yasuo-Higano/markdown-test -> https://gitmarkdown.com/Yasuo-Higano/markdown-test
+
+
 
 https://gitmarkdown.com/ のマークダウンテストページ。
 
