@@ -8,5 +8,6 @@ generate:
 	python make-sitemap.py --dir ./ --base-url "https://gitmarkdown.com/Yasuo-Higano/markdown-test"
 	python trim-charcode.py --dir folio-scientia/
 	python trim-charcode.py --dir ./
+	python modify-meta.py --dir folio-scientia/
 clean:
 	rm -f folio-scientia/README.md 
