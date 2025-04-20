@@ -120,3 +120,64 @@ Master of the |Gun=Katas《Geometric and Tactical Analysis》 an adversary not t
 ## Folio-Scientia
 - [Folio-Scientia](folio-scientia/README.md)
 
+# Markdown メタデータ追加ツール
+
+このツールは、指定されたディレクトリ内のMarkdownファイルを処理し、OLLAMAを使用して自動的にdescriptionとkeywordsを生成して追加するPythonスクリプトです。
+
+## 機能
+
+- 指定されたディレクトリ内のすべての `.md` ファイルを再帰的に検索
+- Markdownファイルのメタデータセクションを解析（存在する場合）
+- ファイルの内容からOLLAMAを使ってdescriptionとkeywordsを自動生成
+- 既存のメタデータフィールドを保持しながら、新しいメタデータを追加または更新
+
+## 必要条件
+
+- Python 3.6以上
+- ollama パッケージ
+- OLLAMA（ローカルで実行されていること）
+
+## インストール
+
+```bash
+pip install ollama
+```
+
+## 使い方
+
+```bash
+python add-meta.py --dir <ディレクトリパス>
+```
+
+### 例：
+
+```bash
+python add-meta.py --dir ./docs
+```
+
+これにより、`./docs` ディレクトリとそのサブディレクトリにあるすべての `.md` ファイルが処理されます。
+
+## メタデータ形式
+
+スクリプトは以下のフォーマットのメタデータを処理します：
+
+```markdown
+---
+title: タイトル
+author: 著者名
+date: 2023-06-15
+description: 自動生成された説明
+keywords: キーワード1, キーワード2, キーワード3, キーワード4, キーワード5
+---
+
+マークダウンの本文...
+```
+
+既存のメタデータがある場合は保持され、`description`と`keywords`フィールドのみが追加または更新されます。
+
+## 注意事項
+
+- OLLAMA APIへのアクセスが必要です
+- 大量のファイルを処理する場合、時間がかかる場合があります
+- 非常に大きなMarkdownファイルの場合、内容の最初の2000文字のみが分析対象となります
+
