@@ -44,7 +44,7 @@ def find_md_files(directory):
     md_files = []
     for root, _, files in os.walk(directory):
         for file in files:
-            if file.endswith('.md'):
+            if file.endswith('.md') or file.endswith('.xml') or file.endswith('.txt'):
                 md_files.append(os.path.join(root, file))
     return md_files
 

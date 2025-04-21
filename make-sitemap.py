@@ -3,6 +3,17 @@ import os
 import argparse
 import glob
 import datetime
+import urllib.parse
+import unicodedata
+import re
+
+def normalize_text(text):
+    """
+    ユニコードの正規化を行う
+    特に、分離された濁点・半濁点を結合する（NFCフォーム）
+    例: 'ホ\u309A' ('ホ' + 半濁点) を 'ポ' に変換
+    """
+    return unicodedata.normalize('NFC', text)
 
 def generate_sitemap(directory, base_url):
     """
@@ -29,6 +40,12 @@ def generate_sitemap(directory, base_url):
             filename = os.path.basename(md_file)
             # Convert .md to .html for web URLs if needed
             url_path = filename
+            
+            # Normalize Unicode characters before URL encoding
+            url_path = normalize_text(url_path)
+            
+            # URL encode the filename to handle multibyte Unicode characters
+            url_path = urllib.parse.quote(url_path)
             
             # Get last modification time of the file
             last_mod = datetime.datetime.fromtimestamp(os.path.getmtime(md_file)).strftime("%Y-%m-%d")
